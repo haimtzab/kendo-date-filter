@@ -1,0 +1,13 @@
+@mixin ptlbr($position: absolute, $top: 0, $left: 0, $bottom: 0, $right: 0, $margin: auto) {
+    position: $position;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+    margin: $margin;
+}
+
+@mixin calcEqualWidthHeight($size: 1) {
+    width: calc((1vw - 1vh) * $size);
+    height: calc((1vw - 1vh) * $size);
+}

@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+:root {
+    --td-bg: #{$background};
+    --td-bg-secoundary: #{$secondary};
+    --td-bg-variant: #{$primary-alt};
+    --td-bg-variant-b: #{$primary-variant};
+    --td-bg-variant-c: #{$primary-alt};
+    --td-font-color: #{$on-primary};
+    --td-border-color: #{$on-primary};
+    --td-border-color-rgb: #{$on-primary-rgb};
+    --td-spliter-border-color: #{$light-blue};
+    --td-hover-item: #{$light-blue};
+    --td-select-item: #{$light-blue};
+    --td-select-text-item: #d2affd;
+    --td-chx-color: #{$light-blue};
+    --td-body-bg: #{$background};
+    --td-control-bg: #{$light-blue};
+    --td-error: #{$error};
+    --td-spinner-color: #{$on-primary};
+    --td-spinner-color-b: #{$light-blue};
+
+    --kendo-color-surface-alt: transparent;
+}
